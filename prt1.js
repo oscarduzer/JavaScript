@@ -1,7 +1,7 @@
 function palindrome(str)
   {
-  var tab=[],letter,r=1,i=0,j;
-  var strr=String(str);
+  let tab=[],letter,r=1,i=0,j;
+  let strr=String(str);
   strr=strr.replace(/[^\w\s]|_/g, '');
   for(letter of strr)
   {
